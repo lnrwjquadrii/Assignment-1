@@ -1,0 +1,26 @@
+
+l
+
+<form id="feedbackForm" method="POST" action="submit_feedback.php">
+  <textarea name="message" id="message" placeholder="Write your feedback..." required></textarea>
+  <br>
+  <button type="submit">Submit</button>
+</form>
+
+<script>
+  const form = document.getElementById('feedbackForm');
+
+  form.addEventListener('submit', function (e) {
+    const message = document.getElementById('message').value.trim();
+
+    if (message.length === 0) {
+      alert('Feedback cannot be empty!');
+      e.preventDefault();
+    } else if (message.length < 5) {
+      alert('Feedback is too short.');
+      e.preventDefault();
+    }
+  });
+</script>
+
+
