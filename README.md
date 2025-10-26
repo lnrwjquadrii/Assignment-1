@@ -11,6 +11,11 @@ Osadolor Freda 23/1918-handling databse tables:feedback,admins.
 Quadri uthman olanrewaju 23/0951-handling implement authentication for admin panel.
 
 Ohiku favour adewale 23/0732-handling GET method for viewing all feedback(admin only).
+For my part of the project, I implemented the GET method that allows the admin to view all submitted feedback.
+I used PHP to read the stored feedback data from a JSON file and display it in a structured format.The system checks the admin credentials from the query parameters before showing the feedback list.
+Once authenticated, all feedback messages are retrieved and displayed instantly in JSON format for easy review and debugging.
+
+I tested the project in VS Code using the PHP local server (php -S localhost:5000) and confirmed that the admin can view all feedback entries properly.
 
 Osadolor Divine Favour 23/1919-handling include keyword search and sorting options.
 
