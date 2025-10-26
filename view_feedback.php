@@ -1,4 +1,8 @@
 <?php
+/**
+ * Keyword Search and Sorting Functionality
+ * Authors: Okachi-ben Christopher (23/2359) & Osadolor Divine Favour (23/1919)
+ */
 session_start();
 if (!isset($_SESSION['admin'])) exit(header("Location: admin_panel.php"));
 
