@@ -22,6 +22,7 @@ I did the first part of the project, which involved creating the Anonymous Feedb
 I designed and coded the feedback form interface, connected it to the database, and made sure users could submit their feedback anonymously.
 I also handled the database connection setup and created the feedback_db database with a feedback table that stores each message along with the time it was submitted.After submission, I added functionality to display all feedback messages instantly on the same page, allowing users to see every entry without refreshing manually.
 Finally, I tested my code on VS Code with XAMPP, confirmed that the feedback was being saved in phpMyAdmin, and uploaded my completed part to GitHub so the rest of the group could integrate their sections easily.
+
 Okachi-Ben Christopher - 23/2359
 Handling keyword search and sorting options
 I developed the keyword search functionality for the Online Feedback System's admin panel. The search feature allows administrators to quickly locate feedback entries by searching across name, email, and feedback content fields simultaneously using SQL LIKE operators with wildcard matching. This means partial word searches work perfectly - typing "great" finds "great service" or "greatest experience."
