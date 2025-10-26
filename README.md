@@ -22,4 +22,4 @@ I did the first part of the project, which involved creating the Anonymous Feedb
 I designed and coded the feedback form interface, connected it to the database, and made sure users could submit their feedback anonymously.
 I also handled the database connection setup and created the feedback_db database with a feedback table that stores each message along with the time it was submitted.After submission, I added functionality to display all feedback messages instantly on the same page, allowing users to see every entry without refreshing manually.
 Finally, I tested my code on VS Code with XAMPP, confirmed that the feedback was being saved in phpMyAdmin, and uploaded my completed part to GitHub so the rest of the group could integrate their sections easily.
-Would you like me to also write versions for your other group members’ parts (like “I did the login module”, “I handled the dashboard”, etc.) so the group report looks consistent?
+
