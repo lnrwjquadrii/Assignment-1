@@ -9,6 +9,16 @@ Chika-Alex Angell 23/2973-handling add form validation and input sanitization.
 Osadolor Freda 23/1918-handling databse tables:feedback,admins.
 
 Quadri uthman olanrewaju 23/0951-handling implement authentication for admin panel.
+for my part i created the github repository,added my group memebers,updated the readme file with their information.
+
+i Created an admin Model: i did that using a command like `php artisan make:model Admin` to define the admin user structure.
+  i Configured Authentication Guards: Update the `config/auth.php` file to do that you include a new guard for admins, specifying the provider and driver. 
+  
+ i defined the Admin Provider: In the same `config/auth.php` file, add a new provider for admins under the `providers` section:
+
+  Create Admin Authentication Logic: Develop controllers for admin login, registration, and logout functionality, utilizing the admin guard for authentication.
+ Protect Admin Routes: Apply the  middleware to routes that require admin authentication, ensuring only authorized admins can access those routes.
+i Implemented Logout Functionality: Create a logout method in the admin controller to log out admins and redirect them to the login page. 
 
 Ohiku favour adewale 23/0732-handling GET method for viewing all feedback(admin only).
 For my part of the project, I implemented the GET method that allows the admin to view all submitted feedback.
